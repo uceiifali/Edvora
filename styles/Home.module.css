@@ -1,0 +1,57 @@
+.contaier {
+  display: flex;
+}
+
+.title {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.87);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.5);
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1080px) {
+  .title {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contaier {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .name {
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+  }
+}

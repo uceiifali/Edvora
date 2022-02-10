@@ -1,0 +1,57 @@
+.container {
+  width: 228px;
+  height: 275px;
+  background: #131313;
+  border-radius: 15px;
+  margin: 30px;
+}
+.title {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #a5a5a5;
+  padding: 14px 30px 0px;
+}
+.border {
+  width: 158px;
+  margin-left: 30px;
+  margin-top: -10px;
+  opacity: 0.8;
+  border: 1px solid #cbcbcb;
+}
+@media screen and (max-width: 1080px) {
+  .title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 200px;
+    height: 250px;
+  }
+  .title {
+    font-size: 14px;
+  }
+  .border {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 190px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 10px;
+    text-align: center;
+  }
+  .border {
+    width: 50px;
+    margin-left: 70px;
+  }
+}

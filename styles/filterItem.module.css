@@ -1,0 +1,47 @@
+.container {
+  margin-top: 10px;
+}
+.select {
+  width: 160px;
+  height: 30px;
+  margin: 10px 30px;
+  background: #232323;
+  padding-left: 10px;
+  border-radius: 4.68775px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+@media screen and (max-width: 1080px) {
+  .select {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .select {
+    width: 130px;
+    height: 30px;
+    margin: 8px 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .select {
+    width: 130px;
+    height: 30px;
+    margin: 8px 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 8px;
+  }
+  .select {
+    width: 90px;
+    height: 20px;
+    margin: 0px 50px;
+  }
+}
