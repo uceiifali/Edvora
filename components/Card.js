@@ -14,6 +14,7 @@ const Card = () => {
       {allData.map(function (d, idx) {
         return (
           <div
+            key={idx}
             className={styles.cardContainer}
             style={{ transform: `translateX(${-250 * index}px)` }}
           >

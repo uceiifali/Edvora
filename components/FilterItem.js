@@ -7,7 +7,7 @@ const FilterItem = () => {
     <div className={styles.container}>
       <select className={styles.select}>
         {allData.map(function (d, idx) {
-          return <Option title={d.brand_name} />;
+          return <Option key={idx} title={d.brand_name} />;
         })}
       </select>
       ;
